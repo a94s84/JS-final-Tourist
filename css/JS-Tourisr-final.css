@@ -312,7 +312,6 @@ footer p:nth-child(2){
         font-size: 15px;
         margin-right:10px;
        }
-
     .dashed{
         width:450px;}
 
@@ -337,13 +336,14 @@ footer p:nth-child(2){
         margin:-25px auto;
         margin-bottom: 30px;
     }
-
+    
     .dashed{
         width:80%;}
 
     main{
         max-width:370px;
         margin: 0 auto;}
+
     .show .card{
         width:90%;
     }
@@ -352,22 +352,28 @@ footer p:nth-child(2){
 
 @media screen and (max-width:375px) {
     select{
-        width: 200px; 
-        height: 35px;
-        font-size: small; }
+        max-width: 100%; }
 
     .hotZones{
-        width:350px;
-        margin:-25px auto;
-        margin-bottom: 30px;
+        max-width:100%;
     }
+
+    .hotZone_item{
+    margin-top:10px;
+    margin-left:15px;
+}
+
+     .box{
+        width: 20%;
+        font-size: 16px;
+       }
 
     .dashed{
         width:80%;}
 
     main{
-        max-width:370px;
-        margin: 0 auto;}
+        max-width:100%;
+        }
 
     .show .card{
         width:90%;
